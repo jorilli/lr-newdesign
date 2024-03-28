@@ -1,20 +1,24 @@
-<mat-toolbar>
-  <button mat-button>
-    <span routerLink="/">inkGeko</span>
+<mat-toolbar class="header-container">
+  <button mat-button class="image-button" routerLink="/">
+    <img class="image" src="assets/images/Nur_ink_schwarz.png">
   </button>
   <div class="vl"></div>
   <span class="spacer"></span>
   <button mat-button>
-    <span routerLink="offers">Angebote</span>
+    <span class="text" routerLink="offers">Angebote</span>
   </button>
   <button mat-button>
-    <span routerLink="portfolio">Portfolio</span>
+    <span class="text" routerLink="portfolio">Portfolio</span>
   </button>
   <button mat-button>
-    <span routerLink="biography">Biografie</span>
+    <span class="text" routerLink="biography">Biografie</span>
   </button>
   <button mat-button>
-    <span routerLink="contact">Kontakt</span>
+    <span class="text" routerLink="contact">Kontakt</span>
   </button>
-  <!-- logo -->
+  <button mat-button class="logo-container" disabled>
+    <div class="logo-container2">
+          <img class="logo" src="assets/images/Nur_geko_schwarz.png">
+    </div>
+  </button>
 </mat-toolbar>

@@ -1,8 +1,45 @@
+.header-container {
+  background-color: whitesmoke;
+  height: 4em;
+}
+
 .spacer {
   flex: 1 1 auto;
 }
 
+.text {
+  color: black;
+  font-size: 1.2em;
+}
+
 .vl {
-  border-left: 4px solid white;
+  margin-left: 1em;
+  border-left: 4px solid #3e3e3e;
   height: 100%;
 }
+
+.image {
+  margin-top: 0.5em;
+  max-width: 100%;
+}
+
+.image-button {
+  max-width: 15%;
+}
+
+.logo-container {
+  max-width: 9em;
+  margin-top: 0.5em;
+
+}
+
+.logo-container2 {
+  margin-top: 1em;
+
+}
+
+.logo {
+  max-width: 50%;
+  transform: rotate(300deg);
+}
+

@@ -1,0 +1,19 @@
+.container {
+  margin-top: 2em;
+  margin-left: 2em;
+  display: flex;
+  vertical-align: center;
+  justify-content: center;
+}
+
+.image-container {
+  max-width: 50%;
+}
+
+.text {
+  margin-top: 5em;
+  max-width: 80%;
+  margin-right: 2em;
+  line-height: 2em;
+  font-size: 1.2em;
+}
